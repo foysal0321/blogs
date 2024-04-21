@@ -1,0 +1,23 @@
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: rgba(255, 255, 255, 0.278);
+  background-position: center;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  padding: 8px 16px;
+  border-radius: 100%;
+  
+}
+
+.swiper-button-prev {
+    background-image: url("../../../images//chevron-left.svg");
+  }
+
+  .swiper-button-next {
+    background-image: url("../../../images/chevron-right.svg");
+  }
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    content: '';
+}
