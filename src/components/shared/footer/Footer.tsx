@@ -90,49 +90,45 @@ export default function Footer() {
                 d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
             </svg>
           </span>
-          Clanora
+          BLOG
         </h6>
         <p>
-        Our cleaning experts deliver the highest quality of clean you can always count, Let us help you with all of your cleaninig and disinfecting responsibilities now
+        Sed ut in perspiciatis unde omnis iste natus error sit on i tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
         </p>
       </div>   
 
       <div>
         <h6
           className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-         Products
+         LATEST  POSTS
         </h6>
-        <p className="mb-4 font-semibold">
-          <Link href="#!">Hand Sucks</Link>
+        <p className="mb-4 ">
+          <Link href="#!">Epic Sea View of Santorini, Greece</Link>
         </p>
-        <p className="mb-4 font-semibold">
-          <Link href="#!">Settings</Link>
+        <p className="mb-4 ">
+          <Link href="#">How to Get The Most Out of Your London </Link>
         </p>
-        <p className="mb-4 font-semibold">
-          <Link href="#!">About Us</Link>
+        <p className="mb-4">
+          <Link href="#">Most Beautiful Days in Mahattan Have Started</Link>
         </p>
-        <p className="font-semibold">
-          <Link href="#!">Customer Care</Link>
-        </p>
+       
       </div>
 
        <div>
         <h6
           className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-          Categories
+          POPULAR  POSTS
         </h6>
         <p className="mb-4">
-          <Link href="/">Dishwashing</Link>
+          <Link href="/">Buildings Light up as The Night Approaches</Link>
         </p>
         <p className="mb-4">
-          <Link href="/">Laundry</Link>
+          <Link href="/">Improve Your Photos With These Photography Tips</Link>
         </p>
         <p className="mb-4">
-          <Link href="/">Napkins & Paper Products</Link>
+          <Link href="/">Going For a Cab Ride in New York City</Link>
         </p>
-        <p>
-          <Link href="/">Pest Control</Link>
-        </p>
+   
       </div>
       <div>
         <h6
@@ -151,7 +147,7 @@ export default function Footer() {
                 d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
             </svg>
           </span>
-          New York, NY 10012, US
+          New York, NY 10012, USA
         </p>
         <p className="mb-4 flex items-center justify-center md:justify-start">
           <span className="me-3 [&>svg]:h-5 [&>svg]:w-5">
@@ -165,7 +161,7 @@ export default function Footer() {
                 d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
             </svg>
           </span>
-          info@example.com
+          blog@example.com
         </p>
         <p className="mb-4 flex items-center justify-center md:justify-start">
           <span className="me-3 [&>svg]:h-5 [&>svg]:w-5">
@@ -203,7 +199,7 @@ export default function Footer() {
   <div className="bg-black/5 p-6 text-center">
     <span>© 2024 Copyright:</span>
     <a className="font-semibold" href="https://tw-elements.com/"
-      >Clanora</a
+      >Blog</a
     >
   </div>
 </footer>

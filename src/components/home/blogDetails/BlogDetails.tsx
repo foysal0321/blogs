@@ -51,7 +51,12 @@ Coquettish darn pernicious foresaw therefore much amongst lingeringly shed much 
                     </div>
                 </div>
             </div>
-        
+        <div className="p-8 mt-12 bg-gray-100 text-center">
+            <h1 className='font-semibold  text-sm'>NEWSLETTER</h1>
+            <p className='text-xs py-5 mt-2'>Enter your email address below to subscribe to <br /> my newsletter</p> 
+            <input type="text" placeholder="Your email address.." className="input input-bordered w-full max-w-xs " />
+            <button className='btn w-80 mt-2 btn-md bg-sky-400 text-white'>SUBSCRIBE</button>
+        </div>
         
         </div>
         </div>
