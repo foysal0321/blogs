@@ -1,16 +1,15 @@
-import Image from "next/image";
 import Slider from "./Slider";
-import PopularBlog from "../mostBlogs/PopularBlog";
+import Container from "@/components/shared/Container";
+
+
 export default async function BlogTips() {
-
-
     return (
-        <div>
-            <Slider />
-            <PopularBlog />
+        <div className="py-12">
+           <Container>
+             <Slider />
+           </Container>
+           
         </div>
-
-       
     )
 }
 

@@ -31,65 +31,53 @@ export default function Slider() {
                         spaceBetween: 20
                     },
                 }}
-                className="mySwiper max-w-[1200px]"
+                className="mySwiper max-w-[1250px]"
             >
-               
-               
                 <SwiperSlide>
-                    <div className="w-[280px] h-[400px] mx-auto">
+                    <div className="w-[300px] h-[400px] mx-auto">
                         <Image className="h-[270px]" src={travel1} width={300} alt="image" />
                         <div className=" text-center p-4">
-                            <h6 className='text-teal-400'>Travel Tips</h6>
+                            <h6 className='text-[#38B5F4]'>Travel Tips</h6>
                             <h2 className="py-2">Beautiful Hut Converted in Lush Green Trees</h2>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="w-[280px] h-[400px] mx-auto">
+                    <div className="w-[300px] h-[400px] mx-auto">
                         <Image className="h-[270px]" src={travel1} width={300} alt="image" />
                         <div className=" text-center p-4">
-                            <h6 className='text-teal-400'>Travel Tips</h6>
+                            <h6 className='text-[#38B5F4]'>Travel Tips</h6>
                             <h2 className="py-2">Beautiful Hut Converted in Lush Green Trees</h2>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="w-[280px] h-[400px] mx-auto">
+                    <div className="w-[300px] h-[400px] mx-auto">
                         <Image className="h-[270px]" src={travel1} width={300} alt="image" />
                         <div className=" text-center p-4">
-                            <h6 className='text-teal-400'>Travel Tips</h6>
+                            <h6 className='text-[#38B5F4]'>Travel Tips</h6>
                             <h2 className="py-2">Beautiful Hut Converted in Lush Green Trees</h2>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="w-[280px] h-[400px] mx-auto">
+                    <div className="w-[300px] h-[400px] mx-auto">
                         <Image className="h-[270px]" src={travel1} width={300} alt="image" />
                         <div className=" text-center p-4">
-                            <h6 className='text-teal-400'>Travel Tips</h6>
+                            <h6 className='text-[#38B5F4]'>Travel Tips</h6>
                             <h2 className="py-2">Beautiful Hut Converted in Lush Green Trees</h2>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="w-[280px] h-[400px] mx-auto">
+                    <div className="w-[300px] h-[400px] mx-auto">
                         <Image className="h-[270px]" src={travel1} width={300} alt="image" />
                         <div className=" text-center p-4">
-                            <h6 className='text-teal-400'>Travel Tips</h6>
+                            <h6 className='text-[#38B5F4]'>Travel Tips</h6>
                             <h2 className="py-2">Beautiful Hut Converted in Lush Green Trees</h2>
                         </div>
                     </div>
                 </SwiperSlide>
-              
-               
-               
-               
-
-
-
-
-
-
             </Swiper>
         </>
     );
