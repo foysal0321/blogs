@@ -18,7 +18,7 @@ export default function Navbar() {
         { id: 1, item: <Link href="/">Home</Link> },
         { id: 3, item: <Link href="/blogs">Blogs</Link> },
         { id: 4, item: <Link href="/">Latest Blogs</Link> },
-        { id: 5, item: <Link href="/">Create Blog</Link> },
+        { id: 5, item: <Link href="/create-blog">Create Blog</Link> },
         { id: 6, item: <Link href="/about">About</Link> },
         { id: 7, item: <Link href="/news">News</Link> },
         { id: 7, item: <Link href="/signup">Sign Up</Link> },

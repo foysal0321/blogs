@@ -10,7 +10,7 @@ const Blogs = () => {
 
     const [posts, setPosts]: any[] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
-    const [error, setError] = useState();
+    const [error, setError]: any = useState('');
     const baseUrl = 'https://blog.jrrecyclingsolutionsltd.com.bd'
 
     console.log(posts);
