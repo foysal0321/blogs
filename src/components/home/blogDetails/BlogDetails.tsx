@@ -6,7 +6,7 @@ import Container from '@/components/shared/Container'
 
 export default function BlogDetails() {
     return (
-            <Container >
+        <Container >
             <div className=" flex flex-wrap gap-5 m-5 py-16">
                 <div className="max-w-[780px]">
                     <div className="text-center">
@@ -33,7 +33,6 @@ export default function BlogDetails() {
                     <TopBlogs />
                 </div>
             </div>
-            </Container>
-       
+        </Container>
     )
 }

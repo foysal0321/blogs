@@ -5,6 +5,7 @@ import axios from 'axios';
 import Image from "next/image";
 import LatestPost from "./LatestPost";
 import Container from "@/components/shared/Container";
+import Link from 'next/link';
 
 const Blogs = () => {
 
@@ -13,11 +14,11 @@ const Blogs = () => {
     const [error, setError]: any = useState('');
     const baseUrl = 'https://blog.jrrecyclingsolutionsltd.com.bd'
 
-    console.log(posts);
+    //console.log(posts);
 
     // Function to get the URL of the featured image
     const fetchImage = async (mediaId: any) => {
-        if (!mediaId) return '/path/to/default/image.png'; // Provide a default image path
+        if (!mediaId) return '/path/to/default/image.png';
         try {
             const result = await axios.get(`${baseUrl}/wp-json/wp/v2/media/${mediaId}`);
             return result.data.source_url;
@@ -39,16 +40,18 @@ const Blogs = () => {
                         imageUrl
                     };
                 }));
+
                 setPosts(postData);
                 setIsLoading(false);
+
             } catch (error) {
                 console.error('Failed to fetch posts:', error);
                 setError("Failed to load posts.");
                 setIsLoading(false);
             }
         };
-
         fetchPosts();
+        
     }, [baseUrl]);
 
 
@@ -63,15 +66,17 @@ const Blogs = () => {
                         {
                             posts.map((post: any) => (
                                 <div className="max-w-[370px]" key={post.id}>
-                                    <Image className="md:w-[370px] w-[350px]" src={post.imageUrl}
-                                        alt={post.title.rendered} width={370} height={300}
-                                    />
-                                    <div className="text-center py-4 ">
-                                        <p className="text-xs text-gray-600"> {post.date}</p>
-                                        <h2 className="text-xl py-4 font-semibold">{post.title.rendered}</h2>
-                                        <p className=" text-gray-700">More off this less hello salamander lied porpoise much over tightly circa horse taped so innocuously outside crud mightily rigorous negative one inside gorilla and drew humbly shot…</p>
-                                        <button className="btn-outline btn-sm text-[#38B5F4] underline mt-6 font-semibold ">Read More</button>
-                                    </div>
+                                    <Link href={`/blogs/${post.id}`}>
+                                        <Image className="md:w-[370px] w-[350px]" src={post.imageUrl}
+                                            alt={post.title.rendered} width={370} height={300}
+                                        />
+                                        <div className="text-center py-4 ">
+                                            <p className="text-xs text-gray-600"> {post.date}</p>
+                                            <h2 className="text-xl py-4 font-semibold">{post.title.rendered}</h2>
+                                            <p className=" text-gray-700">More off this less hello salamander lied porpoise much over tightly circa horse taped so innocuously outside crud mightily rigorous negative one inside gorilla and drew humbly shot…</p>
+                                            <button className="btn-outline btn-sm text-[#38B5F4] underline mt-6 font-semibold ">Read More</button>
+                                        </div>
+                                    </Link>
                                 </div>
                             ))
                         }
